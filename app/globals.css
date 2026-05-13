@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body {
+  background: #0a0a0a;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #dc2626;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+}
+.skip-link:focus { top: 0; }
+
+.cyber-grid {
+  background-image:
+    linear-gradient(rgba(220, 38, 38, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(220, 38, 38, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Hide scrollbar for category pills */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
