@@ -1,0 +1,19 @@
+{
+  "name": "Bread & Smash — Smash Burgers Halal",
+  "short_name": "Bread & Smash",
+  "description": "Restaurant halal à Boissy-Saint-Léger. Smash burgers, sandwiches, frites maison.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "fr",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/smash/Original_Smash_8.50euro.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}
